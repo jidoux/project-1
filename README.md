@@ -9,7 +9,7 @@ Next, get your directory to be the directory you downloaded this repository in,
 which is usually by the command ```cd <directory name>```
 Then, create a conda environment with all the packages used in this program.
 You can do this by doing the following command, just name it anything you want
-```conda create --name [ENTER NAME HERE] --file requirement.yaml```
+```conda create --name [ENTER NAME HERE] --file requirements.yaml```
 and then activate this environment with:
 ```conda activate [ENTER NAME HERE]```
 Lastly, as long as your conda environment is activated, and you're in the directory
