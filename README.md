@@ -1,7 +1,6 @@
 # What is this?
-This is a simple python web dumping program, all it does is dump the 
-content—including html data of a website—into a file, called site_content.txt. This
-file is only 1 line of the entire web page's content.
+This is a python web scraping program, that takes all the comments of a reddit post
+into a file, called site_content.txt.
 
 # How to run it:
 You must first download the files on github and put them into a specific folder.
@@ -19,4 +18,6 @@ Enter in the following:
 
 Important note: For reddit links to work, you will need to replace the www in the link with old,
 everything else should be the same.
+Also, you may have to put ?limit=<NUMBER> at the end of your URL, to get more comments
+from the post.
 
