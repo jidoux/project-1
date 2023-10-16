@@ -13,8 +13,8 @@ and then activate this environment with:
 ```conda activate [ENTER NAME HERE]```
 Lastly, as long as your conda environment is activated, and you're in the directory
 where you downloaded all the program's files, you are ready to run the program.
-Enter in the following:
-```python main.py <LINK>```
+Enter in the following (run.py must be what you run to execute the program):
+```python run.py <LINK>```
 
 Important note: For reddit links to work, you will need to replace the www in the link with old,
 everything else should be the same.
