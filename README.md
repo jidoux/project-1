@@ -1,6 +1,6 @@
 # What is this?
-This is a python web scraping program, that takes all the comments of a reddit post
-into a file, called site_content.txt.
+This is a python web scraping program, that takes a web page and creates two files in the Data folder, 
+one with the raw unprocessed web data, and one with only the comments.
 
 # How to run it:
 You must first download the files on github and put them into a specific folder.
