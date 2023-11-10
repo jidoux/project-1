@@ -1,6 +1,7 @@
 # What is this?
-This is a python web scraping program, that takes a web page and creates two files in the Data folder, 
-one with the raw unprocessed web data, and one with only the comments.
+This is a python web scraping program, that takes a web page and creates three files in the Data folder, 
+one with the raw unprocessed web data, one with the comments, and one with a 1-word sentiment analysis
+of the comments using the OpenAI API.
 
 # How to run it:
 You must first download the files on github and put them into a specific folder.
