@@ -1,8 +1,8 @@
 # What is this?
 This is a python web scraping program, that takes the URL of a Reddit Thread and scrapes its data into 3 Folders:
-Raw: Raw will contain all of the textual data to be found within the provided Reddit Thread
-Processed: Will contain only the comment data that will be further refined from the Raw folder
-Semantic Analysis: Will contain a 1-word semanitc descriptor of each comment after it has been passed through openAI API
+- Raw: Raw will contain all of the textual data to be found within the provided Reddit Thread
+- Processed: Will contain only the comment data that will be further refined from the Raw folder
+- Semantic Analysis: Will contain a 1-word semanitc descriptor of each comment after it has been passed through openAI API
 
 # Prerequisites
   - Anaconda3
