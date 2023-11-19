@@ -1,0 +1,18 @@
+I’d never heard of it being able to detect a blood agent. Nerve, blister and a TIC only.
+None of the ones I’ve used shipped with a blood agent tester but did ship with the test chemicals for the nerve and blister.
+Smith detection is the current manufacturer for the DOD for the JCAD. Give them a call on Tuesday to talk to one of their sales reps and you’ll have an answer from the source.
+
+That's what I thought too, but looking online it says they can detect blood agents. But that's where it stops, no further info, nothing at all specific. So I thought maybe it was a particular model or something
+
+I dug into JCAD detection capabilities at one point a few years ago. I don't remember the exact detail but the conclusion was that detection times and detection thresholds were so hight that it was not operationally feasible for detecting anything other than the nerve and blister role we were using it for and it was just one tool among other detectors/tools needed to get the full picture. The Air Force AFTTP document laid out the lab verified detection times and thresholds. The T.O. basically said that we would not consider it capable of TIC detection for military purposes. This was like 6 years ago last I looked though.
+
+Thank you for the thoughtful response. I'm in a civil support team, and I was putting together a scenario for the survey section based on a particular chemical, and pay of that was how each of our pieces of equipment would, or would not be able to detect it. Kept seeing stuff online that JCAD was able to detect blood agents, but it was nothing more than that sentence. I couldn't find any type of evidence of further information on the topic.
+
+-_- then talk to your NMSO. Lol there are attachments that smith sells as well for JCADs that greatly increase what they can detect.
+
+Might have to rely on the decades ole' OG - The M256A1 Chemical Agent Detection Kit. Remember to wear gloves when breaking the ampules.
+
+This would be a question for CBRN KIT. Capabilities and limitations...
+Use of this site constitutes acceptance of our User Agreement and Privacy Policy. © 2023 reddit inc. All rights reserved.
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+π Rendered by PID 24192 on  reddit-service-r2-loggedout-cff59bdc7-nzk8g  at 2023-11-19 17:21:28.175572+00:00 running 2542059 country code: US.
