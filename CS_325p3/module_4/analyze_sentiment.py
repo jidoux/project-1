@@ -9,7 +9,8 @@ import sys
 
 
 def analyze_comments(comment, list_of_comment_analysis):
-    openai_api_key = hidden_api_key
+    # openai_api_key = hidden_api_key
+    openai_api_key = "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"
     endpoint = "https://api.openai.com/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {openai_api_key}",
