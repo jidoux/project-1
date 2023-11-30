@@ -23,15 +23,16 @@ This is a python web scraping program, that takes the URL of a Reddit Thread and
 1. Begin with creating an envrionment  with all required libraries using the command ```conda env create --file requirements.yml -n [ENTER NAME HERE]```.
      * The "[Enter Name Hear]" portion being whatever you wand to name your environment. Example: conda env create --file requirements.yml -n PROJECT.
 2. Activate your newely created environment using  ```conda Activate ``` folowed by the name of the env you just created.
-3. From here you should use the command  ``` git pull https://github.com/jidoux/web-scraper.git``` too pull out all of the files contained within this repository to your local device
-4. Once the repository has been pulled to the ``` cd CS325_p3 ``` to get within the correct working directory.
+3. From here you should use the command  ``` git pull https://github.com/jidoux/web-scraper.git``` to pull out all of the files contained within this repository to your local device
+4. Once the repository has been pulled do ``` cd CS325_p3 ``` to get within the correct working directory.
 
 # Running the Program 
-
- To execute the program input ```python run.py [URL OF CHOICE] ```
-   - The [URL OF CHOICE] should be replace with any url you intend on getting a semantic analysis performed on
+1. Ensure you are in the correct directory of the program, with the right conda environment activated
+2. To execute the program input ```python run.py```
+3. Input the directory of the file with the input urls, and after that enter the file's name
+4. Wait for the program to perform all the sentiment analysis
   
 # NOTE:
 - you must replace the "www" portion of your selected URL with "old" for example: [https](https://old.reddit.com)
 - Also, you may have to put ?limit=<NUMBER> at the end of your URL, if all of the comments are not being scraped and tested.
-
+- And also, you must replace the openai_api_key portion of the module_4 analyze_sentiment.py file with your own api key
