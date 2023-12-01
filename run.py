@@ -2,6 +2,7 @@
 from CS_325p3.module_1.scrape_raw_data import scrape_raw_data
 from CS_325p3.module_2.purify_data import purify_data
 from CS_325p3.module_3.write_data_to_file import write_purified_data
+from CS_325p3.module_5.generate_bar_graph import generate_bar_graph
 import os
 
 
@@ -44,3 +45,9 @@ for i, filename in enumerate(os.listdir(processed_folder)):
 
         # Call the write_purified_data function
         write_purified_data(os.path.join(processed_folder, filename), os.path.join(analyzed_folder, analyzed_filename))
+
+# this part deals with the creation of the bar graphs
+analyzed_file_number = 1  # this is 1 due to the naming convention of the analyzed files, starting at 1
+for i in range(5):  # this can definitely be improved, but it's a way to call the generate_bar_graph 5 times
+    generate_bar_graph(output_folder, analyzed_file_number)
+    analyzed_file_number += 1
