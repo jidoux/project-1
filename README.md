@@ -23,10 +23,10 @@ This is a finished python web scraping program, that takes the URL of a Reddit T
   
 # Repository Installation
 1. Begin with creating an envrionment  with all required libraries using the command ```conda env create --file requirements.yml -n [ENTER NAME HERE]```.
-     * The "[Enter Name Hear]" portion being whatever you wand to name your environment. Example: conda env create --file requirements.yml -n PROJECT.
+     * The "[Enter Name Here]" portion being whatever you want to name your environment. Example: conda env create --file requirements.yml -n PROJECT.
 2. Activate your newely created environment using  ```conda Activate ``` folowed by the name of the env you just created.
 3. From here you should use the command  ``` git pull https://github.com/jidoux/web-scraper.git``` to pull out all of the files contained within this repository to your local device
-4. Once the repository has been pulled do ``` cd CS325_p3 ``` to get within the correct working directory.
+4. Once the repository has been pulled do ``` cd web-scraper ``` to get within the correct working directory. Make sure you enter the complete file path to the directory of this downloaded program.
 
 # Running the Program 
 1. Ensure you are in the correct directory of the program, with the right conda environment activated
