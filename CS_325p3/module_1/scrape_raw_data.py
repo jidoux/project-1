@@ -1,6 +1,6 @@
 # this module purifies the raw file data
 # input: the url, and output file name
-# output: the raw file data, written in a file
+# output: the raw file data, written in a file, and the post title, to be used in bar graphs
 import requests
 from bs4 import BeautifulSoup
 
@@ -32,8 +32,11 @@ def scrape_raw_data(url, output_filename):
             with open(output_filename, 'w', encoding='utf-8') as file:
                 file.write(data)
 
-            # I commented out this line here and on purify_data.py because I felt the user didn't need to know this
-            # print(f'Data scraped successfully and saved to {output_filename}')
+            # this portion extracts each reddit post title
+            extracted_html_title = soup.find("title")
+            reddit_post_title = extracted_html_title.text
+            return reddit_post_title  # returns it to be used in the generation of the bar graphs
+
         else:
             print(f'Error: Unable to fetch data from the URL. Status code: {response.status_code}')
 

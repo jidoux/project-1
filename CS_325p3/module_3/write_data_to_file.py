@@ -6,8 +6,8 @@ from CS_325p3.module_4.analyze_sentiment import get_sentiment
 
 def write_purified_data(file, output_file):
     list_of_analysis = []
-    num_comments_analyzed = 0
-    with open(file, "r", encoding="utf-8") as file:
+    num_comments_analyzed = 0  # counting this, so we can limit the number of comments to analyze
+    with open(file, "r", encoding="utf-8") as file:  # this file is the purified web data file
         comments = file.read().split("\n")
         print("Analyzing a reddit post:")
         for comment in comments:

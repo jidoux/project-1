@@ -23,6 +23,5 @@ def purify_data(input_filename, output_file):
         with open(output_file, 'w', encoding='utf-8') as output_file:
             output_file.write('\n'.join(comments))
 
-        # print(f'Data Successfully filtered and saved to processed_site_data')
     except Exception as e:
         print(f'An error occurred: {str(e)}')
